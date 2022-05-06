@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Fancify Shamcify</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		fieldset {
+			margin: 25px;
+			font-size: 20px;
+			border: 5px solid gray;
+			width: 50vw;
+			text-align: center;
+		}
+	</style>
+
+<body>
+	<div class="container">
+		<fieldset>
+			<legend>Text</legend>
+			<textarea name="" id="text" cols="30" rows="4"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Fancify</legend>
+			<button id="bigger">Bigger!</button>
+			<input type="radio" name="fancify" id="fancy"> <label for="fancy">FancyShmancy</label>
+			<input type="radio" name="fancify" id="boring"><label for="boring">BoringBetty</label>
+			<button id="moo">Moo</button>
+		</fieldset>
+	</div>
+	<script src="fancifymytext.js"></script>
+</body>
+
+</html>
